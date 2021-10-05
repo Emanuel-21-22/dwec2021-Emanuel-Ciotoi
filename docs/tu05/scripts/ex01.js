@@ -4,7 +4,7 @@
  * @param {number} num Number to check
  * @returns True if is even or False if is odd
  */
-let checkEvenOdd = (num) => (num % 2 == 0 ? true : false);
+let checkEvenOdd = (num) => num % 2 == 0;
 
 console.info(checkEvenOdd(7));
 console.info(checkEvenOdd(104));

@@ -5,7 +5,7 @@
  * @param {number} num Number to check
  * @returns
  */
-let isPositiveNumber = (num) => (num >= 0 ? true : false);
+const isPositiveNumber = (num) => num >= 0;
 
 /**
  * Function to check if a number is positive, in addition a function must be provided if it is positive and another for when it is negative.
