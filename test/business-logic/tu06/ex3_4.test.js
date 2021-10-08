@@ -10,7 +10,7 @@ describe('Exponentiation Test Suite', () => {
 		expect(pow(0, 5)).toBe(0);
 	});
 
-	it('returns 64 when 2 is elevated at 6', () => {
+	it('returns -125 when -5 is elevated at 3', () => {
 		expect(pow(-5, 3)).toBe(-125);
 	});
 
