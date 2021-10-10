@@ -43,3 +43,7 @@ ul {
 li {
 	margin: 1rem;
 }
+
+p.exercise.node {
+	text-align: center;
+}
