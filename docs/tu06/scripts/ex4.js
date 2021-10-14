@@ -20,26 +20,3 @@ export function ask(number, yes, no) {
 	if (isPositiveNumber(number)) yes();
 	else no();
 }
-
-// TO-DO delete this
-/*
-ask(
-	23,
-	() => {
-		console.info('Is positive');
-	},
-	() => {
-		console.info('Is negative');
-	}
-);
-
-ask(
-	-23,
-	() => {
-		console.info('Is positive');
-	},
-	() => {
-		console.info('Is negative');
-	}
-);
-*/

@@ -7,8 +7,3 @@
 const checkEvenOdd = (num) => num % 2 == 0;
 
 export { checkEvenOdd };
-
-// TO-DO delete this
-// console.info(checkEvenOdd(7));
-// console.info(checkEvenOdd(104));
-// console.info(checkEvenOdd(2760));

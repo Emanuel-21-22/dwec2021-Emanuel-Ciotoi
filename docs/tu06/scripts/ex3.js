@@ -13,8 +13,3 @@ export function pow(x, y) {
 		return null;
 	}
 }
-
-// TO-DO delete this
-// console.info(pow(2, 6));
-// console.info(pow(0, 5));
-// console.info(pow(-5, 3));

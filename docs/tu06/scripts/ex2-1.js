@@ -9,8 +9,3 @@
 export function checkAge(age) {
 	return age >= 18 || false;
 }
-
-// TO-DO delete this
-// console.info(checkAge(17));
-// console.info(checkAge(18));
-// console.info(checkAge(19));
