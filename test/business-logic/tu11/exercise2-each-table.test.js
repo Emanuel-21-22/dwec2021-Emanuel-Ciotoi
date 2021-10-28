@@ -10,9 +10,12 @@ describe('Last Day of Month Test Suite', () => {
 		${2012} | ${1}  | ${29}
 		${2021} | ${1}  | ${28}
 		${2023} | ${11} | ${31}
-	`('the last day of %d month %d should be %d', (year, month, expectedDay) => {
-		expect(getLastDayOfMonth(year, month)).toEqual(expectedDay);
-	});
+	`(
+		'the last day of %d month %d should be %d',
+		({ year, month, expectedDay }) => {
+			expect(getLastDayOfMonth(year, month)).toEqual(expectedDay);
+		}
+	);
 
 	it(`the last day of this month ${year}-${month} should >= 28`, () => {
 		expect(getLastDayOfMonth()).toBeGreaterThanOrEqual(28);
