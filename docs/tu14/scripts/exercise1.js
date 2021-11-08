@@ -1,7 +1,7 @@
-export const getMostPopulatedCity = (...obj) => {
+export const getMostPopulatedCity = (...cities) => {
 	let name = null,
 		cant = 0;
-	obj.map((e) => {
+	cities.map((e) => {
 		if (cant < e.population) {
 			name = e.name;
 			cant = e.population;
