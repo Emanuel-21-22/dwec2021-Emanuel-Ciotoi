@@ -6,7 +6,6 @@ class Animal {
 
 class Rabbit extends Animal {
 	constructor(name) {
-		// this.name = name; <- doesn't call the class Animal constructor
 		super(name);
 		this.created = Date.now();
 	}
