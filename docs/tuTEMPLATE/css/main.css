@@ -35,7 +35,10 @@ h1 {
 }
 
 ul {
-	display: table;
+	display: grid;
+	grid-template: repeat(9, auto) / auto;
+	grid-auto-flow: column;
+	justify-content: center;
 	margin: 1rem auto;
 	list-style-type: none;
 }
