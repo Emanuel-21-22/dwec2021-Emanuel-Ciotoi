@@ -1,6 +1,6 @@
 {
 	"name": "dwec2021-emanuel-ciotoi",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "index.js",
 	"directories": {
@@ -21,8 +21,8 @@
 	},
 	"homepage": "https://github.com/Emanuel-21-22/dwec2021-Emanuel-Ciotoi#readme",
 	"devDependencies": {
-		"@babel/plugin-transform-modules-commonjs": "^7.16.0",
-		"babel-jest": "^27.3.1",
-		"jest": "^27.3.1"
+		"@babel/plugin-transform-modules-commonjs": "^7.16.5",
+		"babel-jest": "^27.4.5",
+		"jest": "^27.4.5"
 	}
 }
