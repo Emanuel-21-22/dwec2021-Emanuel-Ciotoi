@@ -5,6 +5,10 @@ const span = document.createElement('span');
 span.innerHTML = 'Loading';
 document.body.append(span);
 
-delay(2000).then(() => {
-	span.innerHTML = 'Completed';
-});
+delay(2000)
+	.then(() => {
+		span.innerHTML = 'Completed';
+	})
+	.catch(() => {
+		span.innerHTML = 'Error';
+	});
