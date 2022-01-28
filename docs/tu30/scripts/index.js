@@ -75,3 +75,18 @@ function printLoad(spans) {
 		span.innerText = 'Loading...';
 	}
 }
+
+function createInput(list) {
+	const regex = /(\d){1,}$/;
+	const lastElName = list.lastElementChild.getAttribute('name');
+	const nextNum = regex.test(lastElName) ? ++lastElName.match(regex)[0] : 1;
+
+	const input = document.createElement('input');
+
+	input.type = 'text';
+	input.id = `user${nextNum}`;
+	input.name = `user${nextNum}`;
+	input.placeholder = 'username';
+
+	return input;
+}
