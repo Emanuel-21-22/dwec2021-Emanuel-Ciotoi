@@ -5,19 +5,21 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: 'npm' # See documentation for possible values
+    directory: '/' # Location of package manifests
     versioning-strategy: increase-if-necessary
     open-pull-requests-limit: 10
     pull-request-branch-name:
-      separator: "-"
+      separator: '-'
     schedule:
-      interval: "daily"
-      time: "08:00"
-      timezone: "Europe/Madrid"
+      interval: 'daily'
+      time: '08:00'
+      timezone: 'Europe/Madrid'
     labels:
-      - "dependencies"
+      - 'dependencies'
+    allow:
+      - dependency-type: 'all'
     commit-message:
-      prefix: "npm prod"
-      prefix-development: "npm dev"
-      include: "scope"
+      prefix: 'npm prod'
+      prefix-development: 'npm dev'
+      include: 'scope'
