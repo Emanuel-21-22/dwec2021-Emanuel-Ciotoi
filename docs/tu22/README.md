@@ -31,7 +31,8 @@ Create a function `clear(elem)` that removes everything from the element.
 
 ### EXERCISE 2: Your personal movie database
 
-Using the code provided: exercise2.zip 
+Using the code provided: [exercise2.zip](https://github.com/Emanuel-21-22/dwec2021-Emanuel-Ciotoi/files/8214154/ex2.zip)
+
 
 Write an application to add and remove movies.
 
@@ -59,7 +60,7 @@ Adding and removing Movies:
 - To remove a movie, just click on it.
 - If you end up without having any movie, the initial message will be shown again: "Your personal movie database!"
 
-See the application in action in this video.
+See the application in action [in this video](https://user-images.githubusercontent.com/36056518/157557332-19c73a26-4b32-4212-a3ac-13c69bcb072c.mp4).
 
 HELP: When you add a movie, this is the HTML that will be in the `<li>` tag
 
