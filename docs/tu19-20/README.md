@@ -55,6 +55,9 @@ Example:
 
 The result should be:
 
+![result-exercise2](https://user-images.githubusercontent.com/36056518/157430521-580c3049-007a-4586-abda-0685f839cc8b.png)
+
+
 ## SUGGESTIONS
 
 - Try to use as many theoretical concepts as possible. _The exercises are tasks to practice what you have learn._
