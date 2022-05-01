@@ -22,7 +22,7 @@
 	"homepage": "https://github.com/Emanuel-21-22/dwec2021-Emanuel-Ciotoi#readme",
 	"devDependencies": {
 		"@babel/plugin-transform-modules-commonjs": "^7.16.8",
-		"babel-jest": "^27.5.1",
+		"babel-jest": "^28.0.3",
 		"jest": "^27.5.1"
 	}
 }
